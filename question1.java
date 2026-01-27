@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MarkPercentage {
+public class question1 {
 	public static void main(String[] args) {
 	
         Scanner  read = new Scanner(System.in);
@@ -11,4 +11,5 @@ public class MarkPercentage {
         double percentage = (obtained / max) * 100;
         System.out.println("Percentage: " + percentage + "%");
 	}
+
 }
